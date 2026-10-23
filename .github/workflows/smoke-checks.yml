@@ -1,0 +1,11 @@
+name: Smoke Checks
+
+on:
+  workflow_dispatch:
+
+jobs:
+  smoke-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Placeholder smoke check
+        run: echo "Placeholder smoke check — replace with real v1 launch checks."
